@@ -1,1 +1,1 @@
-../symlink_targets/two.sql
+select 10 as ten
