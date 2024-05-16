@@ -4,7 +4,7 @@ customers as (
 
     select * from {{ ref('stg_customers') }}
 
-),
+), -- made a change
 
 orders_table as (
 
@@ -63,3 +63,6 @@ joined as (
 )
 
 select * from joined
+
+
+-- howdy
