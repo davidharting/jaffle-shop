@@ -16,6 +16,8 @@ This is a sandbox project for exploring the basic functionality and latest featu
 
 ## Platform setup
 
+cool
+
 ### dbt Cloud IDE (most beginner friendly)
 
 1. Set up a dbt Cloud account and follow Step 4 in the [Quickstart instructions for your data platform](https://docs.getdbt.com/quickstarts), to connect your platform to dbt Cloud.
