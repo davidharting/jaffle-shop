@@ -1,3 +1,4 @@
+-- I am making a change here that should go away upon reclone
 with
 
 customers as (
