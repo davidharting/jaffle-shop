@@ -3,6 +3,7 @@ WITH customers AS (
   SELECT
     *
   FROM {{ ref('jaffle_shop', 'customers') }}
+  LIMIT 25
 ), first_sql AS (
   SELECT
     *
