@@ -1,9 +1,12 @@
-with
-
-products as (
-
-    select * from {{ ref('stg_products') }}
-
+WITH stg_products AS (
+  SELECT
+    *
+  FROM {{ ref('stg_products') }}
+), products AS (
+  SELECT
+    *
+  FROM stg_products
 )
-
-select * from products
+SELECT
+  *
+FROM products
